@@ -6,8 +6,6 @@ function showSearch()
     var searchField=document.querySelector('#searchField');
     searchField.focus();
     hiddenSearch.classList.add('show-form-animation');
-   /* document.getElementById('searchField').focus();
-   hiddenSearch.parentElement.classList.toggle('min-index');*/
     
 }
 function hiddenSearch()
@@ -74,13 +72,6 @@ $('.owl-carousel2').owlCarousel({
         }
     }
 })
-
-
-
-
-
-
-
 
 
 

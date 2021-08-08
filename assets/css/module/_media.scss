@@ -797,17 +797,17 @@
                         .top-strip-inner{
                             
                             i::before{
-                                font-size: 15px;
+                                font-size: 10px;
                                 color: $primaryWhite;
                                 border: 1px solid $primaryWhite;
-                                padding: 6px;
+                                padding: 3px;
                             }
                             span{
                                 color: $primaryWhite;
-                                font-size: 16px;
+                                font-size: 12px;
                             }
                             .top-strip-inner-contact{
-                                margin-top: 22px;
+                                margin-top: 0px;
                                 margin-left: 0px;
                                 position: relative;
                                 display: flex;
@@ -825,16 +825,15 @@
                             }
                             
                             .top-strip-inner-social{
-                                margin-left: 0px !important;
-                                margin-bottom: 22px;
+                            
+                                margin-bottom: 0;
                                 display: flex;
                                 justify-content: center;
                                 flex-direction: row;
                                 .nav-item{
-                                    margin: 25px 19px;
+                                    margin: 0px 5px;
                                     .nav-link{
-                                        padding-left: 0px;
-                                        padding-right: 0px;
+                                        padding: 5px;
                                     }
                                 }
                             }
@@ -1887,6 +1886,9 @@
     
                         .carousel-inner{
                             .carousel-item{
+                                padding: 130px 0;
+                                background-image: url(./assets/img/hero.jpg);
+                                background-size: cover;
                                 .hero-caption{
                                     width: 400px;
                                     top: 50%;
@@ -2775,6 +2777,10 @@
     
                         .carousel-inner{
                             .carousel-item{
+                                padding: 130px 0;
+                                background-image: url(./assets/img/hero.jpg);
+                                background-size: cover;
+                                background-position: center;
                                 .hero-caption{
                                     width: 250px;
                                     top: 50%;
@@ -2783,7 +2789,7 @@
                                         font-size: 25px;
                                     }
                                     p{
-                                        display: none;
+                                        font-size: 14px;
                                     }
                                     .read-btn{
    

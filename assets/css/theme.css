@@ -2646,17 +2646,17 @@ footer .footer .copyright .container ul li a {
     max-width: 1180px;
   }
   .header .header-inner .top-strip .navbar .container .top-strip-inner i::before {
-    font-size: 15px;
+    font-size: 10px;
     color: #ffffff;
     border: 1px solid #ffffff;
-    padding: 6px;
+    padding: 3px;
   }
   .header .header-inner .top-strip .navbar .container .top-strip-inner span {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 12px;
   }
   .header .header-inner .top-strip .navbar .container .top-strip-inner .top-strip-inner-contact {
-    margin-top: 22px;
+    margin-top: 0px;
     margin-left: 0px;
     position: relative;
     display: -webkit-box;
@@ -2680,8 +2680,7 @@ footer .footer .copyright .container ul li a {
     margin-right: 10px;
   }
   .header .header-inner .top-strip .navbar .container .top-strip-inner .top-strip-inner-social {
-    margin-left: 0px !important;
-    margin-bottom: 22px;
+    margin-bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2694,11 +2693,10 @@ footer .footer .copyright .container ul li a {
             flex-direction: row;
   }
   .header .header-inner .top-strip .navbar .container .top-strip-inner .top-strip-inner-social .nav-item {
-    margin: 25px 19px;
+    margin: 0px 5px;
   }
   .header .header-inner .top-strip .navbar .container .top-strip-inner .top-strip-inner-social .nav-item .nav-link {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 5px;
   }
   .header .header-inner .top-strip .navbar .container .top-strip-inner ul li {
     display: -webkit-box;
@@ -3641,6 +3639,11 @@ footer .footer .copyright .container ul li a {
     padding-left: 0;
     padding-right: 0;
   }
+  .main .main-inner .hero-section .hero-section-inner .carousel .carousel-inner .carousel-item {
+    padding: 130px 0;
+    background-image: url(./assets/img/hero.jpg);
+    background-size: cover;
+  }
   .main .main-inner .hero-section .hero-section-inner .carousel .carousel-inner .carousel-item .hero-caption {
     width: 400px;
     top: 50%;
@@ -4465,6 +4468,12 @@ footer .footer .copyright .container ul li a {
     padding-left: 0;
     padding-right: 0;
   }
+  .main .main-inner .hero-section .hero-section-inner .carousel .carousel-inner .carousel-item {
+    padding: 130px 0;
+    background-image: url(./assets/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+  }
   .main .main-inner .hero-section .hero-section-inner .carousel .carousel-inner .carousel-item .hero-caption {
     width: 250px;
     top: 50%;
@@ -4474,7 +4483,7 @@ footer .footer .copyright .container ul li a {
     font-size: 25px;
   }
   .main .main-inner .hero-section .hero-section-inner .carousel .carousel-inner .carousel-item .hero-caption p {
-    display: none;
+    font-size: 14px;
   }
   .main .main-inner .hero-section .hero-section-inner .carousel .carousel-inner .carousel-item .hero-caption .read-btn {
     padding: 6px 8px;
